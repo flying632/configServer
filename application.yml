@@ -1,0 +1,19 @@
+server:
+  port: 8880
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+#      defaultZone: http://suwpec:suwpec@192.168.88.213:1026/eureka/
+
+spring:
+  application:
+    name: productOrder-service
+#ribbon:
+#  ReadTimeout: 3000
+#  ConnectTimeout: 3000
+#  MaxAutoRetries: 1
+#  MaxAutoRetriesNextServer: 1
+#  OkToRetryOnAllOperations: false
+
